@@ -25,4 +25,4 @@ And: I fill in the "Email address" field with "ebiharie@immune.it"
 And: I fill in the "Password" field with "mypassword"
 And: I click in the "I agree to the My Transavia General Terms and Conditions" field
 And: I click on "Done"
-Then: I should see "your account is created"
+Then: I should see "Your account has been created!"
