@@ -1,0 +1,28 @@
+
+Scenario: User logs in
+Given: I am on the homepage
+When: I click on the "Login" button
+And: I fill in the "Email address" field with "ebiharie@immune.it"
+And: I fill in the "Password" field with "mypassword"
+And: I click on "Log in"
+Then: I should see "The login page of Erwin Biharie"
+  
+  
+  
+
+Scenario: User creates account
+Given: I am on the homepage
+When: I click on the "Create account" button
+And: I click on "Male" in the "Gender" field
+And: I fill in the "First names" field with "Erwin"
+And: I fill in the "Last name" field with "Biharie"
+And: I fill in the "Date of birth" field in field "Day" with "09"
+And: I fill in the "Date of birth" field in field "Month" with "10"
+And: I fill in the "Date of birth" field in field "Year" with "1980"
+And: I fill in the "Mobile phone number" field with "0646875598"
+And: I fill in the "Name you go by" field with "Erwin"
+And: I fill in the "Email address" field with "ebiharie@immune.it"
+And: I fill in the "Password" field with "mypassword"
+And: I click in the "I agree to the My Transavia General Terms and Conditions" field
+And: I click on "Done"
+Then: I should see "your account is created"
